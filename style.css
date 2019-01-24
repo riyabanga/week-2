@@ -1,0 +1,68 @@
+<style>
+		h1  
+		{
+			text-align: center;
+		}
+		
+		
+
+		*{
+			box-sizing: border-box;
+			
+		}
+		.col-sm-4{
+			background-color: gray;
+			padding: 30px 20px 20px 30px;
+			border: 5px solid black;
+			margin-right: 10px;
+			width: 32.3%;
+			float: left;
+			position: relative;
+			
+		}
+	
+
+	
+	
+	#child{
+		position: absolute;
+		right: 0;
+		top: 0;
+		background-color: pink;
+		border: 1px solid black;
+		
+		
+	}	
+	
+	
+	#child h4
+
+	{
+		margin:0;
+		padding: 5px;
+	}
+
+
+#p1{
+	background-color: gray;
+	position: relative;
+
+}
+#p2{
+	background-color: gray;
+}
+#p3{
+	background-color: gray;
+}
+@media screen and (min-width: 992px){
+	.col-sm-4{
+		width: 32.3%
+	}
+}
+@media (max-width: 767px){
+.col-sm-4{
+	width: 100%;
+	margin-bottom: 10px;
+}
+} 
+	</style>
